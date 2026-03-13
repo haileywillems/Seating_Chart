@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seating Chart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Seating Chart</h1>
+    <div>
+        <p>Student Name:</p>
+        <input name="name" id="name">
+        <button onclick="assignMode()">Asign Mode</button>
+        <button onclick="removeMode()">Remove Mode</button>
+        <button onclick="resetChart()">Reset</button>
+    </div>
+    <div>
+        <p id="mode"></p>
+        <p id="message"></p>
+    </div>
+    <div id="updateStats"></div>
+    <div id="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
